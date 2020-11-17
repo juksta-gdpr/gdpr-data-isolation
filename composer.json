@@ -19,6 +19,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
+        "php": ">=7.3.0",
+        "laravel/framework": "^8.0.0",
         "ramsey/uuid": "^4.1"
     },
 	"require-dev": {

@@ -1,4 +1,4 @@
-# GDPR Article 32 Data Isolation #
+# Laravel GDPR Article 32 Data Isolation #
 
 According to the GDPR Article 32 personal data should be isolated in order to track access to it, be aware of the storate period etc. This package provides an easy way to keep personal data in a separate database/table with slight models modification. Also it can helps you get compliant with GDPR Article 17 (Right to be forgotten), GDPR Arctile 20 (Right to data portability).
 
