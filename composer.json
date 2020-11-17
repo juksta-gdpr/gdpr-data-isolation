@@ -1,0 +1,45 @@
+{
+    "name": "juksta/gdpr-data-isolation",
+    "description": "GDPR personal data isolation",
+    "keywords": [
+        "juksta",
+        "gdpr",
+		"laravel",
+		"mysql"
+    ],
+    "homepage": "https://github.com/juksta-gdpr/gdpr-data-isolation",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yurii Ishchenko",
+            "email": "ishenkoyv@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "ramsey/uuid": "^4.1"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "^9.0",
+		"mockery/mockery": "^1.4.0"
+	},
+    "autoload": {
+        "psr-4": {
+            "Juksta\\GdprDataIsolation\\": "src"
+        }
+    },
+	"autoload-dev": {
+		"psr-4": {
+		    "Juksta\\GdprDataIsolation\\Tests\\": "tests/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Juksta\\GdprDataIsolation\\GdprDataIsolationServiceProvider"
+			]
+		}
+	}
+}
